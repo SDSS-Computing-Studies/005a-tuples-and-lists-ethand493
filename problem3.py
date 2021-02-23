@@ -26,12 +26,11 @@ The largest number you entered is 92
 numbers = []
 
 while True:
-    data = float(input("Please enter a number. "))
+    data = int(input("Please enter a number. "))
     if data != -1:
         numbers.append(data)
     else:
         break
-print(numbers)
 numbers.sort()
-amount = numbers.count()
-print("The largest number you entered is " + str(numbers[amount]))
+amount = len(numbers)
+print("The largest number you entered is " + str(numbers[amount-1]))
