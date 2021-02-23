@@ -22,6 +22,8 @@ Enter the index for an animal:2
 The animal at that index is Dog
 """
 
+animals = ['Bear', 'Cat', 'Dog', 'Fish', 'Turtle']
 
-
-animals =
+output = int(input("Enter the index for an animal"))
+chosen = animals[output]
+print("The animal at that index is " + chosen)

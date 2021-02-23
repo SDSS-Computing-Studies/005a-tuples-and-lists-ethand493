@@ -23,5 +23,15 @@ Enter an integer:-1
 
 The largest number you entered is 92
 """
+numbers = []
 
-
+while True:
+    data = float(input("Please enter a number. "))
+    if data != -1:
+        numbers.append(data)
+    else:
+        break
+print(numbers)
+numbers.sort()
+amount = numbers.count()
+print("The largest number you entered is " + str(numbers[amount]))

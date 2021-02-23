@@ -23,3 +23,16 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+table = []
+a = str(input("Enter a word"))
+table.append(a)
+b = str(input("Enter a word"))
+table.append(b)
+c = str(input("Enter a word"))
+table.append(c)
+d = str(input("Enter a word"))
+table.append(d)
+e = str(input("Enter a word"))
+table.append(e)
+
+print(table)
